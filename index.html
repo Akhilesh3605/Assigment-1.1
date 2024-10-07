@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>See ‘N’ Say Storymaker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>See ‘N’ Say Storymaker</h1>
+    <div id="buttons">
+        <button onclick="addRandomWord('subject')">Add Subject</button>
+        <button onclick="addRandomWord('verb')">Add Verb</button>
+        <button onclick="addRandomWord('adjective')">Add Adjective</button>
+        <button onclick="addRandomWord('noun')">Add Noun</button>
+        <button onclick="addRandomWord('place')">Add Place</button>
+    </div>
+    <button onclick="speakSentence()">Speak Sentence</button>
+    <button onclick="generateRandomStory()">Random Story</button>
+    <button onclick="resetStory()">Reset</button>
+    <p id="storyText"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
